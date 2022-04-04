@@ -14,9 +14,7 @@ namespace zich{
         vector<double> matrix;
 
     public:
-        Matrix(vector<double> MatrixVector, int Rows, int Columns){
-
-        }
+        Matrix(vector<double> MatrixVector, int Rows, int Columns){}
 
         friend Matrix operator+(const Matrix &matrix1, const Matrix &matrix2);
         friend Matrix operator+=(Matrix &matrix1, const Matrix &matrix2);
