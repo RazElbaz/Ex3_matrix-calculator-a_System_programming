@@ -3,7 +3,6 @@
 #include "Matrix.hpp"
 using namespace std;
 namespace zich {
-    
     //----------------------------------------
     // Adding operators
     //----------------------------------------
@@ -19,8 +18,6 @@ namespace zich {
         vector<double> ans;
         return Matrix(ans,0,0);
     }
-    
-    
     //----------------------------------------
     // Subtraction operator
     //----------------------------------------
@@ -36,8 +33,6 @@ namespace zich {
         vector<double> ans;
         return Matrix(ans,0,0);
     }
-    
-    
     //----------------------------------------
     // Comparison operator
     //----------------------------------------
@@ -59,8 +54,6 @@ namespace zich {
     bool operator!=(const Matrix &matrix1, const Matrix &matrix2){
         return true;
     }
-    
-    
     //----------------------------------------
     // Increasement operator
     //----------------------------------------

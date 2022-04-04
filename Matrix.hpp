@@ -9,7 +9,8 @@ namespace zich{
 
     class Matrix{
     private:
-        int Size;
+        int Rows;
+        int Columns;
         vector<double> matrix;
 
     public:
